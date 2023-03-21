@@ -15,15 +15,17 @@
 	<version>1.0</version>
 	
 	
-        <properties>
-		<java.version>1.8</java.version>
-		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
-		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
-                <sonar.host.url>http://172.31.93.232:9000/</sonar.host.url>
-	        <sonar.login>9787d8595c5872771f9dc47058b5a384540a27f0</sonar.login>
-		<!-- <sonar.password>admin123</sonar.password>  -->
-	</properties>
+       <properties>
+                <jdk.version>1.8</jdk.version>
+                <spring.version>5.1.2.RELEASE</spring.version>
+                <junit.version>4.11</junit.version>
+                <log4j.version>1.2.17</log4j.version>
+                <sonar.host.url>http:172.31.93.232:9000/</sonar.host.url>
+                <sonar.login>72bfbd77bce14fcd7e41f72ce479e455adc7b4ba</sonar.login>
+              <!--<sonar.password>admin</sonar.password>  -->
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        </properties>
         
 	<!--
 	<properties>
