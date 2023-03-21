@@ -15,17 +15,29 @@
 	<version>1.0</version>
 	
 	
-       <properties>
+        <properties>
+		<java.version>1.8</java.version>
+		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
+		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
+                <sonar.host.url>http:172.31.93.232:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
+	</properties>
+        
+	<!--
+	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:172.31.93.232:9000/</sonar.host.url>
-		<sonar.login>72bfbd77bce14fcd7e41f72ce479e455adc7b4ba</sonar.login>
-		<!-- <sonar.password></sonar.password>  -->
+		<sonar.host.url>http:172.31.6.77:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+        -->
 
 	<dependencyManagement>
 		<dependencies>
@@ -94,14 +106,14 @@
 	<distributionManagement>
 	    <repository>
               <id>nexus</id>
-              <name>project7-releases</name>
+              <name>group7-releases</name>
 	      <url>http://3.83.142.37:8081/repository/project7-releases/</url> 
             </repository>
 	    
 	    <snapshotRepository>
               <id>nexus</id>
-              <name>project7-snapshot</name>
-              <url>http://3.83.142.37:8081/repository/project7-snapshots//</url>
+              <name>group-7-snapshot</name>
+              <url>http://3.83.142.37:8081/repository/project7-snapshots/</url>
             </snapshotRepository>
 	    
 	</distributionManagement>
