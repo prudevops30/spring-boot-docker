@@ -106,14 +106,14 @@
 	<distributionManagement>
 	    <repository>
               <id>nexus</id>
-              <name>group7-releases</name>
-	      <url>http://3.83.142.37:8081/repository/project7-releases/</url> 
+              <name>project7-releases</name>
+	      <url>http://172.31.85.14:8081/repository/project7-releases/</url> 
             </repository>
 	    
 	    <snapshotRepository>
               <id>nexus</id>
-              <name>group-7-snapshot</name>
-              <url>http://3.83.142.37:8081/repository/project7-snapshots/</url>
+              <name>project7-snapshots</name>
+              <url>http://172.31.85.14:8081/repository/project7-snapshots/</url>
             </snapshotRepository>
 	    
 	</distributionManagement>
