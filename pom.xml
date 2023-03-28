@@ -107,13 +107,13 @@
 	    <repository>
               <id>nexus</id>
               <name>project7-releases</name>
-	      <url>http://44.201.187.74:8081/repository/project7-releases/</url> 
+	      <url>http://172.31.85.14:8081/repository/project7-releases/</url> 
             </repository>
 	    
 	    <snapshotRepository>
               <id>nexus</id>
               <name>project7-snapshots</name>
-              <url>http://44.201.187.74:8081/repository/project7-snapshots/</url>
+              <url>http://172.31.85.14:8081/repository/project7-snapshots/</url>
             </snapshotRepository>
 	    
 	</distributionManagement>
